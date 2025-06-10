@@ -1,5 +1,9 @@
 # Landing Page — Stranger Things: Mundo Invertido
 
+![image](https://github.com/user-attachments/assets/a57173b9-913a-4657-be19-7f86dabf022c)
+![image](https://github.com/user-attachments/assets/aa319b79-a412-4256-ac96-1e499c59d544)
+
+
 Projeto desenvolvido durante o bootcamp da DIO, essa landing page é uma experiência interativa inspirada na série *Stranger Things*. O foco está na representação do Mundo Invertido, com alternância de temas claro e escuro, trazendo uma atmosfera imersiva e sombria.
 
 ## Tecnologias utilizadas
@@ -15,21 +19,3 @@ Projeto desenvolvido durante o bootcamp da DIO, essa landing page é uma experi�
 - Manipulação dinâmica do DOM  
 - Animações e interatividade  
 - Layout responsivo 
-
-## Contatos dos desenvolvedores
-
-**Diogo Medeiros Mainardes**  
-Instagram: http://instagram.com/diogomainardes.dev  
-GitHub: https://github.com/diogomainardes  
-LinkedIn: https://www.linkedin.com/in/diogomainardes/  
-Twitch: https://www.twitch.tv/dimmbr  
-
-**Michele Queiroz Ambrosio**  
-Instagram: http://instagram.com/programi_  
-GitHub: https://github.com/micheleambrosio  
-LinkedIn: https://www.linkedin.com/in/michele-ambrosio-a4899661/  
-Twitch: https://www.twitch.tv/michele_ambrosio  
-
-**Renan Johannsen de Paula**  
-GitHub: https://github.com/RenanJPaula  
-LinkedIn: https://www.linkedin.com/in/renanjpaula/
