@@ -27,7 +27,7 @@ Projeto desenvolvido durante o bootcamp da [DIO](https://www.dio.me), esta landi
 ---
 
 ##  Links Relevantes
-
+- 👁️‍🗨️ [Ver projeto finalizado](https://devrafcks.github.io/LP-StrangerThings_DIO/)  
 - 🔗 [Repositório original da DIO](https://github.com/digitalinnovationone/semana-frontend-mundo-invertido)  
 - 🌐 [Documentação HTML — W3C](https://www.w3.org/html/)  
 - ♿ [Guia de Acessibilidade — WCAG](https://www.w3.org/WAI/WCAG21/quickref/)
