@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stranger Things / Mundo Invertido</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+  </head>
+  <body class="light-theme">
+    <header>
+      <div class="header-content">
+        <img class="invert-element" src="assets/images/banner/logo.svg" alt="Logo do Mundo Invertido" />
+            <p class="invert-element">
+              Esta não é uma jornada para os fracos. O portal para o Mundo Invertido está prestes a se abrir um lugar sombrio, imprevisível e repleto de perigos. Vecna espreita nas sombras, e Hawkings corre perigo. Somente os corajosos podem atravessar esse limiar e enfrentar o desconhecido. Você está pronto para o desafio? Então toque o botão abaixo e atravesse para o outro lado.
+            </p>
+            <button id="switch-theme-button" onclick="switchTheme()">Inverter Mundos</button>
+          </div>
+
+          <div id="top-characters" class="world-characters"></div>
+    </header>
+
+
+    <main>
+      <div id="bottom-characters" class="world-characters"></div>
+
+      <section id="section-inverted-world" class="container">
+        <div class="section-texts">
+          <h2>O Mundo Invertido</h2>
+          <p>
+            Uma distorção sombria da nossa realidade. O Mundo Invertido é um reflexo corrompido do que conhecemos — habitado por criaturas grotescas, envolto em escuridão sufocante e dominado por tempestades que desafiam a lógica. Neste território hostil, Vecna reina absoluto, tramando a fusão entre mundos para espalhar o caos e a destruição. 
+          </p>
+        </div>
+
+        <img
+          class="invert-element"
+          src="assets/images/content/inverted-world.png"
+          alt="Ilustração do Mundo Invertido"
+        />
+      </section>
+
+
+      <section id="section-stranger-things-trailer" class="container">
+        <div class="video-frame">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Nqvx_gb0W5E?si=kOWUiQTFzavQbatR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="section-texts">
+          <h2>Stranger Things Vol. 5</h2>
+          <p>
+            A cidade está abalada por portais que a conectam ao Mundo Invertido, e os heróis se unem para enfrentar o desafio final: derrotar Vecna, que, apesar de ter sofrido um duro golpe, continua vivo e planeja um ataque. A situação é agravada pela quarentena militar imposta ao local e pela busca constante por Eleven, que se esconde novamente.
+          </p>
+        </div>
+      </section>
+
+      <section id="section-stranger-things-gallery">
+        <div class="container section-text">
+          <h2>Uma das séries mais assistidas da Netflix</h2>
+          <div class="gallery-container">
+            <div class="gallery-image invert-element">
+              <img src="assets/images/content/serie-image-01.png" alt="" />
+            </div>
+            <div class="gallery-image invert-element">
+              <img src="assets/images/content/serie-image-02.png" alt="" />
+            </div>
+            <div class="gallery-image invert-element">
+              <img src="assets/images/content/serie-image-03.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="section-form" class="container">
+        <h2>Junte-se ao Último Capítulo de Stranger Things</h2>
+        <p>
+          Hawkins está à beira do colapso. O Mundo Invertido rompeu suas barreiras, Vecna se fortalece,  
+          e a batalha final se aproxima. No Volume 5 de *Stranger Things*, não há espaço para indecisos
+          apenas para heróis. O Clube Hellfire está recrutando os mais bravos para sua campanha derradeira.
+        </p>
+
+        <div class="form-content">
+          <h3>
+            Entre para a resistência e viva uma campanha de <span>vida ou morte</span>
+          </h3>
+
+          <div class="form-container">
+            <form action="#" method="post" aria-label="Formulário de inscrição - Volume 5 de Stranger Things">
+
+              <label for="name">Nome completo</label>
+              <input type="text" id="name" name="name" placeholder="Ex: Max Mayfield" required>
+
+              <label for="level">Level (nível do jogador)</label>
+              <input type="text" id="level" name="level" placeholder="Ex: Nível 6 - Sobrevivente de Hawkins" required>
+
+              <label for="class">Classe do personagem</label>
+              <input type="text" id="class" name="class" placeholder="Ex: Bardo, Paladino, Clérigo das Sombras" required>
+
+              <label for="character">Nome do personagem</label>
+              <input type="text" id="character" name="character" placeholder="Ex: Elzara, a Devastadora de Vecna" required>
+
+              <label for="motivation">Motivação do personagem</label>
+              <textarea id="motivation" name="motivation" rows="5" placeholder="O que move seu personagem na luta contra o mal?"></textarea>
+
+              <button type="submit">Juntar-se ao Hellfire Club</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>
+        Projeto construído para fins didáticos, com o objetivo de colocar em
+        prática os conhecimentos de HTML, CSS e JavaScript aprendidos na DIO._
+      </p>
+      <img src="assets/images/footer/logo.svg" alt="">
+    </footer>
+
+    <audio id="music" src="assets/musics/normal-world.mpeg" autoplay loop></audio>
+    
+    <script src="./assets/scripts/script.js" defer></script>
+  </body>
+</html>
